@@ -1,0 +1,73 @@
+body {
+    background-color: #1D1E20;
+    color: whitesmoke;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 2000px;
+
+}
+
+
+/* Media query for mobile view */
+@media only screen and (max-width: 600px) {
+  .menu-toggle {
+      justify-content: flex-start;
+  }
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#blogList {
+    list-style: none; /* Remove list item bullets */
+    padding: 0; /* Remove default padding */
+  }
+  
+  #blogList li {
+    margin-bottom: 10px; /* Adjust spacing between list items as needed */
+  }
+  
+  #blogList li a {
+    text-decoration: none; /* Remove underline from links */
+    color: whitesmoke;
+    font-size: x-large;
+    margin: 2rem;
+
+  }
+
+  #blogList li a:hover {
+    color: brown;
+
+  }
+
+  #w3-container {
+    margin: 30% 0% 0% 0%; 
+    height: 34rem;
+    background-color:black;
+    position:relative;
+    overflow-y: auto; /* Enable vertical scrollbar */
+    display: none;
+  }
+
+  #blog_1 {
+
+    padding: 10%;
+  }
+
+  #blog_2 {
+
+    padding: 10%;
+  }
+
+  #blog_3 {
+
+    padding: 10%;
+  }
+
+
+

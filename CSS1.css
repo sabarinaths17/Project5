@@ -1,0 +1,99 @@
+body{
+    background: url('man-1853545_1280.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; /* Stretch image to cover the entire page */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Hamburger menu styling */
+.menu-toggle {
+    display: none; /* Hide by default on larger screens */
+    cursor: pointer;}k
+
+    .bar {
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        margin: 5px 0;
+    }
+    
+
+    #intro_sub{
+        color: whitesmoke;
+        text-align: left;
+        margin: 0.625rem;
+        align-items: center;
+        font-size: large;
+        color: white;
+}
+
+/* Navigation styling */
+#navbar1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px;
+}
+
+
+#navbar1_items {
+    margin: 0%;
+    padding: 0;
+    list-style-type: none;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Align items to the right */
+}
+
+#navbar1_items li#name {
+    font-size: 2em; /* Larger font size for your name */
+    color: white; /* Text color */
+    margin-right: auto; /* Push name to the leftmost side */
+}
+
+#navbar1_items li {
+    margin: 10px;
+    font-size: 1.1em;
+    color: white;
+    list-style-type: none;
+}
+
+
+/* Media query for mobile view */
+@media only screen and (max-width: 600px) {
+    .menu-toggle {
+        justify-content: flex-start;
+    }
+}
+
+
+    /* STYLING THE NAVBAR LINKS */
+#navbar1_items li a{
+    color: white;
+    list-style-type: none;
+    margin: auto;
+    text-decoration: none;
+    
+}
+
+
+#navbar1_items li a:hover   {
+color: goldenrod;
+cursor: pointer;
+}
+
+
+#aboutMe_text{
+    color: whitesmoke;
+    text-align: left;
+    margin: 0.625rem;
+    align-items: center;
+    font-size: large;
+    color: white;
+    display: none;
+}
+
