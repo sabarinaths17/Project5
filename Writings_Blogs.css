@@ -54,6 +54,26 @@ h1 {
   display: none;
 }
 
+.w3-dropdown-content {
+  background-color: black !important; /* Set background color of dropdown */
+  color: white !important; /* Set font color of dropdown */
+}
+
+.w3-dropdown-content a {
+  color: white !important; /* Set font color of dropdown links */
+}
+
+/* Hover effect for dropdown links */
+.w3-dropdown-content a:hover {
+  background-color: whitesmoke !important; /* Darken background color on hover */
+}
+
+.w3-dropdown-hover {color: whitesmoke ;
+  color: white;
+  list-style-type: none;
+  margin-bottom: 10px;   
+}
+
 #blog_1 {
 
   padding: 10%;
